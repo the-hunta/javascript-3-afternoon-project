@@ -17,7 +17,9 @@ let product = {
   imageUrl: 'https://i.ebayimg.com/images/g/9T4AAOSwbmdZf2jN/s-l640.jpg'
 }
 
-// code here
+let productCopy= {...product};
+console.log(productCopy)
+
 
 
 
@@ -28,7 +30,8 @@ let product = {
 
 let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
-// code here
+let colorsCopy = [...colors];
+console.log(productCopy)
 
 
 

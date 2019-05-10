@@ -40,7 +40,11 @@
 */
 
 function showValues( obj ) {
-  //Code Here
+  concatenatedValues = ''
+  for(let prop in obj){
+    concatenatedValues += obj[prop]
+  }
+  return concatenatedValues
 }
 
 
@@ -53,7 +57,12 @@ function showValues( obj ) {
   Return the updated object.
 */
 
-//Code Here
+function greaterThan10(obj){
+  for(let prop in obj){
+    obj[prop] > 10 ? obj[prop] = 0: obj[prop]
+    }
+    return obj
+  }
 
 
 
